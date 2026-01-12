@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 from sklearn.preprocessing import LabelEncoder
-print("Task 1")
+
 # 1. Create a Synthetic Dataset (For demonstration)
 # In your real project, you would use: data = pd.read_csv('your_dataset.csv')
 data = {
